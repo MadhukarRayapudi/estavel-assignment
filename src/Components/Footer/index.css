@@ -1,0 +1,36 @@
+.footer{
+    background-color: #fff;
+    padding: 14px;
+    width: 100%;
+    padding-left: 22px;
+}
+
+.footer-subclass{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-each-container{
+    margin: 12px;
+}
+
+.footer-container-heading{
+    font-family: roboto;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footer-container-item{
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: none;
+    transition: color 0.5s ease;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-container-item:hover{
+    color: blueviolet;
+}

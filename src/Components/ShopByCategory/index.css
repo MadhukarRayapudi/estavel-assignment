@@ -1,0 +1,23 @@
+.shop-by-category-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.main-heading{
+    font-family: roboto;
+}
+
+.back-btn{
+    background-color: transparent;
+    transition: color 0.5s ease;
+    color: #000;
+    align-self: center;
+}
+
+.back-btn:hover{
+    color: blueviolet;
+    cursor: pointer;
+}

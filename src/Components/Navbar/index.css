@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+}
+
+.logo{
+    height: 50px;
+    width: 180px;
+}
+
+.navbar-items-container{
+    display: flex;
+}
+
+.navbar-links{
+    text-decoration: none;
+    font-family: roboto;
+    color: #000;
+    font-size: 20px;
+    margin-right: 22px;
+}
+
+.navbar-links:hover{
+    color: blue;
+}
+
+.search-box{
+    background-color: aliceblue;
+    border: 0;
+    padding: 8px;
+    border-radius: 20px;
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.cart-icon{
+    color: #000;
+    margin-left: 22px;
+    font-size: 20px;
+}

@@ -1,0 +1,145 @@
+.main-page{
+    background-image: url("https://res.cloudinary.com/dqv0mp6k8/image/upload/v1734097672/Screenshot_2024-12-13_191712_m8o2yt.png");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main-page-heading{
+    align-self: center;
+}
+
+.tagline{
+    font-family: roboto;
+    font-weight: 500;
+    color: #e0a824;
+    margin-top: 100px;
+}
+
+.decorative-line{
+    color: darkmagenta;
+}
+
+.question{
+    font-family: roboto;
+    color: #fff;
+    font-weight: 500;
+    font-size: 34px;
+    margin-bottom: 80px;
+}
+
+.horizontal-line{
+    width: 90%;
+}
+
+.features-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.each-feature-card{
+    width: 28%;
+    margin: 14px;
+}
+
+.feature-image{
+    width: 80px;
+    height: 100px;
+}
+
+.feature-heading{
+    font-family: roboto;
+    font-weight: bold;
+    color: #fff;
+}
+
+.feature-description{
+    font-family: roboto;
+    color: #fff;
+}
+
+.poster{
+    width: 100%;
+    margin-top: 44px;
+}
+
+.side-heading{
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 14px;
+    color: #e0a824;
+    margin-top: 100px;
+    align-self: flex-start;
+    margin-left: 22px;
+}
+
+.choose-by-heading{
+    font-family: roboto;
+    font-size: 28px;
+    color: #fff;
+    align-self: flex-start;
+    margin-left: 22px;
+}
+
+.view-more-btn{
+    background-color: darkmagenta;
+    border: 0;
+    padding: 10px;
+    align-self: flex-start;
+    margin-left: 22px;
+    color: #fff;
+    font-family: roboto;
+    margin-bottom: 22px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.view-more-btn:hover{
+    background-color: #bd8722;
+}
+
+.best-selling-container{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.best-selling-heading{
+    font-family: roboto;
+    font-size: 28px;
+    color: aquamarine;
+    margin-left: 16px;
+    font-weight: normal;
+}
+
+.best-selling-button{
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    font-family: roboto;
+    padding: 12px;
+    border: 0;
+    margin-left: 10px;
+    transition: color 0.5s ease, color 0.5s ease;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+
+.best-selling-button:hover{
+    color: blue;
+}
+
+.arrow-icon{
+    margin-left: 6px;
+}
+
+.best-sellers-side-heading{
+    align-self: center !important;
+}
